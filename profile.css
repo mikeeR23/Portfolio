@@ -19,6 +19,11 @@ a > h1{
 	color: blue;
 }
 
+/* Get rid of the underline that was appearing for some reason*/
+#resume{
+	text-decoration: none;
+}
+
 
 
 #header{
@@ -61,8 +66,7 @@ a > h1{
 	background-color: white;
 }
 
-/* Select all h1 and h2 elments inside #michaelRamirez div */
-#michaelRamirez > h1,h2{
+#michaelRamirez > h1,h3{
 	text-align: center;
 	position: relative;
 	top: 210px;
@@ -94,7 +98,7 @@ a > h1{
 	position: relative;
 	left: 100px;
 	top: 30px;
-	margin-right:450px;
+	margin-right:320px;
 	cursor: pointer;
 }
 
@@ -126,6 +130,7 @@ a > h1{
 
 }
 
+
 #courses{
 	font-weight: bold;
 	font-size: 30px;
@@ -139,7 +144,7 @@ a > h1{
 	font-size: 20px;
 	text-align: left;
 	padding-left: 10px;
-	padding-top: 10px;
+	padding-top: 70px;
 }
 
 ul{
@@ -153,8 +158,40 @@ li{
 	font-size: 20px;
 }
 
+#interests{
+	position: relative;
+	top: -5px;
+}
+#second > p{
+	padding-top: 30px;
+	font-size: 20px;
+}
+
+
 #projects > h1{
 	padding-top: 70px;
 	text-align: center;
+}
+
+#footer{
+	width: 100%;
+	height: 50px;
+	background-color: #637e9a;
+	text-align: center;
+	border-top:2px solid black;
+}
+
+#footer > p{
+	position: relative;
+	top: 10px;
+	color:white;
+	font-weight: bold;
+}
+
+#left-projects
+{
+	width: 45%;
+	height: 74.7%;
+	background-color: red;
 }
 
